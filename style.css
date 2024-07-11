@@ -3,6 +3,8 @@
     font-family: "Azeret Mono";
 }
 
+/* navbar style */
+
 #navbar{
     margin: 15px 150px 15px 150px;
     display: flex;
@@ -22,4 +24,46 @@
     border-radius: 8px;
     font-size: 15px;
     font-weight: 600;
+}
+
+/* main banner style */
+
+#main-container{
+    background-image: url(./img/Hero-bg.png);
+    height: 600px;
+    width:auto;
+    display: flex;
+    justify-content: center;
+      
+}
+#sub-container{
+    margin: 26px 200px 44px 200px;
+    
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   text-align: center;
+   gap: 20px;
+}   
+#m-b-i{
+    height: 200px;
+    width: 200px;
+}
+ 
+#sub-container > h2{
+    font-size: 30px;
+}
+#sub-container > p{
+    
+    font-weight: 400;
+    
+    
+}
+#sub-container >div> button{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: #000;
+    padding: 15px 20px 15px 20px ;
+    border-radius: 20px;
 }
