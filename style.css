@@ -77,6 +77,7 @@
 #MY-Inspiration
 {
     margin: 50px 150px 50px 150px;
+    text-align: center;
 }
 
 #VIDEO{
@@ -99,9 +100,50 @@
     margin-left: 10px;
 }
 
+
+
 #footer {
     margin: 0px 150px 0px 150px;
     display: flex;
    justify-content: space-between;
    align-items: center;
+}
+#st{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+#nd{
+    background-color:rgba(0, 76, 232, 0.05) ;
+}
+.my-target{
+
+ max-width: 250px  ;
+  
+    padding: 40PX;
+    
+    border-radius: 20PX;;
+
+}
+#rd{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.my-target>h2{
+
+font-size: 24px;
+font-weight: 800px;
+}
+
+.my-target> p{
+
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.my-target> img{
+    width: 39px;
+    height: 45px;
+
+}
+
+.my-target>a{
+    font-style: normal;
 }
